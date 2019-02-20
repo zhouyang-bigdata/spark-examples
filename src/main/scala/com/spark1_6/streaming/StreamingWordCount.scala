@@ -5,8 +5,14 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * 通过SparkStreaming简单实现WordCount
-  * Created by ZXL on 2017/10/31.
   */
+/*
+ * @Author zhouyang
+ * @Description TODO 通过SparkStreaming简单实现WordCount
+ * @Date 19:29 2019/2/20
+ * @Param 
+ * @return 
+ **/
 object StreamingWordCount {
 
   def main(args: Array[String]) {

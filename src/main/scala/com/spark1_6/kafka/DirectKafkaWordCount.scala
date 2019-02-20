@@ -4,6 +4,7 @@ import kafka.serializer.StringDecoder
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
+import org.apache.spark.streaming.kafka.KafkaManager
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
@@ -15,8 +16,15 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
   * 在2.0以前的版本中KafkaManager这个类是private权限的，需要把它拷贝到项目里使用。
   *     org.apache.spark.streaming.kafka
   *
-  * Created by ZXL on 2017/11/1.
+  * 
   */
+/*
+ * @Author zhouyang
+ * @Description TODO 
+ * @Date 19:28 2019/2/20
+ * @Param 
+ * @return 
+ **/
 object DirectKafkaWordCount {
 
   /*  def dealLine(line: String): String = {
