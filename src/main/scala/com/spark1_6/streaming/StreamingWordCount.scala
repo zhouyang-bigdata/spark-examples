@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /*
  * @Author zhouyang
  * @Description TODO 通过SparkStreaming简单实现WordCount
- * @Date 19:29 2019/2/20
+ * @Date 19:31 2019/2/20
  * @Param 
  * @return 
  **/
